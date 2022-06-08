@@ -1,0 +1,80 @@
+/* CSS Document */
+
+html * {
+	padding: 0% 0% 0% 0%;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	font-family:calibri;
+}
+
+.mainClass {
+	/*display:flex;*/
+}
+.mainArticle {
+	border: 2px #5F5F5F;
+	padding: 0px 15px 0px 20px;
+}
+h1 {
+	font-size: 48px;
+	font-weight: 550;
+	width: 60; 
+	margin-top: 32px;
+	margin-bottom: 8px;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+}
+h2 {
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 25px;
+	letter-spacing: 10px;
+}
+h3{
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 15px;
+
+}
+h4{
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+p{
+
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 0%;
+	padding-bottom: 0px;
+}
+
+ul{
+	text-align: left;
+	padding-top:0;
+	padding-left: 2%;
+	padding-right: 2%;
+	list-style-type: disc;
+	
+	/* The default bullet-point list position is 'outside', changing this to inside centre-aligns the bulletpoint with the text*/
+	list-style-position:inside;
+}
+
+@media (max-width: 767px){
+	
+
+	.mainArticle{
+				width: auto;
+				}
+}
+.header {
+	font:bold;
+	font-family: "Cascadia Code";
+	border: 2px solid white;
+	background-color: ghostwhite;
+	padding: 0px 15px 0px 20px;
+	
+}
